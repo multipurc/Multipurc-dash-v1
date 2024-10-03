@@ -321,7 +321,7 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow">
-                                    <i data-feather="file-text"></i>
+                                    <i class="bx bx-user-circle"></i>
                                     <span data-key="t-pages">Admin Role Manage</span>
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
@@ -340,6 +340,21 @@
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="pages-starter.html" data-key="t-starter-page">All Users</a></li>
                                     <li><a href="pages-maintenance.html" data-key="t-maintenance">Add New</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow">
+                                    <i data-feather="file-text"></i>
+                                    <span data-key="t-pages">Products</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li><a href="pages-starter.html" data-key="t-starter-page">All Products</a></li>
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Add New Product</a></li>
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Category Manage</a></li>
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Subcategory Manage</a></li>
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Product Settings</a></li>
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Review and Rating List</a></li>
                                     
                                 </ul>
                             </li>
@@ -440,7 +455,8 @@
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="pages-starter.html" data-key="t-starter-page">Starter Page</a></li>
-                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Maintenance</a></li>  
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Maintenance</a></li>
+                                    
                                 </ul>
                             </li>
                             <li>
@@ -450,8 +466,17 @@
                                 </a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="pages-starter.html" data-key="t-starter-page">Starter Page</a></li>
-                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Maintenance</a></li>  
+                                    <li><a href="pages-maintenance.html" data-key="t-maintenance">Maintenance</a></li>
+                                    
                                 </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: void(0);" onclick="window.location.href='slider.html';">
+                                    <i class="bx bx-slider-alt"></i>
+                                    <span data-key="t-pages">Settings</span>
+                                </a>
+                                
+                                
                             </li>
                         </ul>
 
@@ -485,13 +510,14 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">All Admins
+                                    <h4 class="mb-sm-0 font-size-18">Add New Admin
                                     </h4>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
                                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                                            <li class="breadcrumb-item active">All Admins</li>
+                                            <li class="breadcrumb-item active">Add New Admin
+                                            </li>
                                         </ol>
                                     </div>
 
@@ -501,75 +527,50 @@
                         <!-- end page title -->
 
                         <div class="row">
-                            <div class="col-xl-13">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h4 class="card-title">All Admin Created By Super Admin</h4>
-                                        
+                            <div class="col-lg-6">
+                                <div>
+                                    <div class="mb-3">
+                                        <label for="example-text-input" class="form-label">Name</label>
+                                        <input class="form-control" type="text" value="MD ZUBAYER TALUKDER" id="example-text-input">
                                     </div>
-                                    <div class="card-body">
-    
-                                        <div class="table-responsive">
-                                            <table class="table table-bordered mb-0">
-    
-                                                <thead>
-                                                    <tr>
-                                                        <th>ID</th>
-                                                        <th>Name</th>
-                                                        <th>Images</th>
-                                                        <th>Role</th>
-                                                        <th>Action</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th scope="row">1</th>
-                                                        <td>Mark</td>
-                                                        <td><img src="assets/images/users/avatar-5.jpg" alt="" class="rounded avatar-lg"></td>
-                                                        <td>@mdo</td>
-                                                        <td>
-                                                            <button type="button" class="btn btn-soft-success waves-effect waves-light"><i class="bx bx-check-double font-size-16 align-middle"></i></button>
-                                                            <button type="button" class="btn btn-soft-warning waves-effect waves-light"><i class="mdi mdi-pencil d-block font-size-16"></i></button>
-                                                            <button type="button" class="btn btn-soft-danger waves-effect waves-light"><i class="mdi mdi-trash-can d-block font-size-16"></i></button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">2</th>
-                                                        <td>Jacob</td>
-                                                        <td><img src="assets/images/users/avatar-5.jpg" alt="" class="rounded avatar-lg"></td>
-                                                        <td>@fat</td>
-                                                        <td>
-                                                            <button type="button" class="btn btn-soft-success waves-effect waves-light"><i class="bx bx-check-double font-size-16 align-middle"></i></button>
-                                                            <button type="button" class="btn btn-soft-warning waves-effect waves-light"><i class="mdi mdi-pencil d-block font-size-16"></i></button>
-                                                            <button type="button" class="btn btn-soft-danger waves-effect waves-light"><i class="mdi mdi-trash-can d-block font-size-16"></i></button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">3</th>
-                                                        <td>Larry</td>
-                                                        <td><img src="assets/images/users/avatar-5.jpg" alt="" class="rounded avatar-lg"></td>
-                                                        <td>@twitter</td>
-                                                        <td>
-                                                            <button type="button" class="btn btn-soft-success waves-effect waves-light"><i class="bx bx-check-double font-size-16 align-middle"></i></button>
-                                                            <button type="button" class="btn btn-soft-warning waves-effect waves-light"><i class="mdi mdi-pencil d-block font-size-16"></i></button>
-                                                            <button type="button" class="btn btn-soft-danger waves-effect waves-light"><i class="mdi mdi-trash-can d-block font-size-16"></i></button>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                    <div class="mb-3">
+                                        <label for="example-text-input" class="form-label">Username</label>
+                                        <input class="form-control" type="text" value="mdzubayertalukder" id="example-text-input">
                                     </div>
-                                    <!-- end card body -->
+                                    <div class="mb-3">
+                                        <label for="example-tel-input" class="form-label">Mobile</label>
+                                        <input class="form-control" type="tel" value="+8801701062663" id="example-tel-input">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="example-email-input" class="form-label">Email</label>
+                                        <input class="form-control" type="email" value="mdzubayertalukder@gmail.com" id="example-email-input">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="example-password-input" class="form-label">Password</label>
+                                        <input class="form-control" type="password" value="12345678" id="example-password-input">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="example-password-input" class="form-label">Password Confirm</label>
+                                        <input class="form-control" type="password" value="12345678" id="example-password-input">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label class="form-label">Role</label>
+                                        <select class="form-select">
+                                            <option>Select Role</option>
+                                            <option>Admin</option>
+                                            <option>Manager</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-4">
+                                        <button type="submit" class="btn btn-primary w-md">Add New User</button>
+                                    </div>
+                                    
                                 </div>
-                                <!-- end card -->
                             </div>
-                            <!-- end col -->
-    
+
                             
-                            <!-- end col -->
                         </div>
-
-
                        
                         <!-- end row-->
 
