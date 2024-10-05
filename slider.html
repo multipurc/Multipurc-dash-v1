@@ -535,6 +535,10 @@
                                         <div class="card">
                                             <div class="card-body">
                                                 <div class="d-grid">
+                                                    <button class="btn font-16 btn-primary" id="btn-new-event">Currency Settings
+                                                    </button>
+                                                </div><br>
+                                                <div class="d-grid">
                                                     <button class="btn font-16 btn-primary" id="btn-new-event">Payment Settings
                                                     </button>
                                                 </div><br>
@@ -556,60 +560,132 @@
                                         <div class="card">
                                             <div class="card-body">
                                                 <div id="calendar">
-                                                    <div class="mt-4 mt-lg-0">
-                                                        <h5 class="font-size-14 mb-4">Bkash Payment</h5>
-                                                        
-                                                        <form>
-                                                            <div class="row mb-4">
-                                                                <div class="form-check form-switch mb-3" dir="ltr">
-                                                                    <input type="checkbox" class="form-check-input" id="customSwitch1" checked>
-                                                                    <label class="form-check-label" for="customSwitch1">Sandbox</label>
-                                                                </div>
-                                                                <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">username</label>
-                                                                <div class="col-sm-9">
-                                                                  <input type="text" class="form-control" id="horizontal-firstname-input" placeholder="Enter username">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row mb-4">
-                                                                <label for="horizontal-email-input" class="col-sm-3 col-form-label">password</label>
-                                                                <div class="col-sm-9">
-                                                                    <input type="email" class="form-control" id="horizontal-email-input" placeholder="Enter password">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row mb-4">
-                                                                <label for="horizontal-password-input" class="col-sm-3 col-form-label">app key</label>
-                                                                <div class="col-sm-9">
-                                                                  <input type="password" class="form-control" id="horizontal-password-input" placeholder="Enter app key">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row mb-4">
-                                                                <label for="horizontal-password-input" class="col-sm-3 col-form-label">app secret</label>
-                                                                <div class="col-sm-9">
-                                                                  <input type="password" class="form-control" id="horizontal-password-input" placeholder="Enter app secret">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row mb-4">
-                                                                <label for="horizontal-password-input" class="col-sm-3 col-form-label">API Endpoint</label>
-                                                                <div class="col-sm-9">
-                                                                  <input type="password" class="form-control" id="horizontal-password-input" placeholder="Enter API Endpoint">
-                                                                </div>
-                                                            </div>
-                
-                                                            <div class="row justify-content-end">
-                                                                <div class="col-sm-9">
-                                                                    
+
+
+
+
+                                                    <div class="row">
+                                                        <div class="col-xl-6">
+                                                            <div class="card">
+                                                                <div class="card-header">
+                                                                    <h4 class="card-title">Bangladesh payment Gateway</h4>
                                                                    
-                                                                    <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
-                                                                        <input type="checkbox" class="form-check-input" id="customSwitchsizelg" checked>
-                                                                        <label class="form-check-label" for="customSwitchsizelg"></label>
-                                                                    </div>
-                                                                    <div>
-                                                                        <button type="submit" class="btn btn-primary w-md">Submit</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
+                                                                </div><!-- end card header -->
+                            
+                                                                <div class="card-body">
+                                                                    <div class="accordion" id="accordionExample">
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="headingOne">
+                                                                                <button class="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                                Bkash
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                                                <div class="accordion-body">
+                                                                                    <div class="text-muted">
+                                                                                        <strong class="text-dark">This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="headingTwo">
+                                                                                <button class="accordion-button fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                                SslCommerce
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                                                <div class="accordion-body">
+                                                                                    <div class="text-muted">
+                                                                                        <strong class="text-dark">This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                                                
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="headingThree">
+                                                                                <button class="accordion-button fw-medium collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                                Amerpay
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                                                <div class="accordion-body">
+                                                                                    <div class="text-muted">
+                                                                                        <strong class="text-dark">This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                                                
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div><!-- end accordion -->
+                                                                </div><!-- end card-body -->
+                                                            </div><!-- end card -->
+                                                        </div><!-- end col -->
+                            
+                                                        <div class="col-xl-6">
+                                                            <div class="card">
+                                                                <div class="card-header">
+                                                                    <h4 class="card-title">International payment Gateway</h4>
+                                                                
+                                                                </div> <!-- end card header -->
+                                                                
+                                                                <div class="card-body">
+                                                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                                                <button class="accordion-button fw-medium" type="button" data-bs-toggle="collapse"
+                                                                                    data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                                                                                    Accordion Item #1
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <div class="accordion-body text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                                                                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                                                    single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                                                                    anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice.</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                                                <button class="accordion-button fw-medium collapsed" type="button" data-bs-toggle="collapse"
+                                                                                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                                    Accordion Item #2
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <div class="accordion-body text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                                                                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                                                    single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer raw denim
+                                                                                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore.</div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="accordion-item">
+                                                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                                                <button class="accordion-button fw-medium collapsed" type="button" data-bs-toggle="collapse"
+                                                                                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                                                    Accordion Item #3
+                                                                                </button>
+                                                                            </h2>
+                                                                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                                                                                data-bs-parent="#accordionFlushExample">
+                                                                                <div class="accordion-body text-muted">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                                                                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                                                    single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                                                                    anderson cred nesciunt sapiente ea proident.</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div><!-- end accordion -->
+                                                                </div><!-- end card-body -->
+                                                            </div><!-- end card -->
+                                                        </div><!-- end col -->
+                                                    </div><!--  end row -->
+                                                   
 
 
                                                     <br>
